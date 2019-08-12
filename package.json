@@ -1,0 +1,22 @@
+{
+  "name": "dev_typescript",
+  "version": "1.0.0",
+  "description": "desarrollo con typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniogomez2015/PROCESS_TypeScript.git"
+  },
+  "author": "tonyGomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniogomez2015/PROCESS_TypeScript/issues"
+  },
+  "homepage": "https://github.com/antoniogomez2015/PROCESS_TypeScript#readme",
+  "dependencies": {
+    "typescript": "^3.1.1"
+  }
+}
