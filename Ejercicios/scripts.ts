@@ -1,3 +1,10 @@
-var myName: string = "tonyGomez";
 
-document.write(myName);
+
+ var ref: void = undefined;                
+
+
+ function proof():void{
+     return "tipo: " + ref
+ }
+
+ document.write(proof();
