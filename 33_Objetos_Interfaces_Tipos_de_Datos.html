@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Objetos:
+    ________
+
+
+        _en typescript, tenemos la posibilidad de crear objetos por medio de una interface que hará de modelo del objeto
+        
+        _así, como también, tenemos la posibilidad de especificar el tipo de dato ha almacenar en las funciones
+
+        _de ésta manera, antes de desarrollar un objeto debemos de describir un modelo con el tipo de dato ha utilizar a través, del siguiente modo:
+
+               
+            _primeramente debemos de crear un función para lo cuál, debemos hacer uso de la palabra reservada "function"
+
+            _para a continuación indicar el nombre que identificaráa la función
+
+            _para seguidamente agregar dos paréntesis dentro de los cuáles ha modo de parámetros indicaremos el modelo del objeto y los tipos de datos ha contener dentro del objeto
+
+            _y opcionalmente seguidamente podremos indicar el tipo de dato que devolverá la función a través, de lo siguiente "():number"
+
+            _NOTA: si agregamos un signo de interrogación "?", seguido a un parámetro 
+            
+                _éste parámetro será opcional a la hora de llamar la función respectiva y pasarle los respectivos argumentos
+
+            _de ésta manera, luego debemos de abrir y cerrar llaves "{}",dentro de las cuáles estructuraremos las sentencias ha ejecutar dentro de la función, ej:
+
+
+                interface ImyObject{
+                    tittle: string;
+                    text: string;
+                }
+
+
+                //interface del objeto
+                function myObject(obj: {tittle: string; text: string;}){
+                    console.log('${obj.tittle} - ${obj.text}');
+                }
+
+                //objeto pasado como parámetro al llama a la funcion "myObject"
+                myObject(
+                    {tittle: 'Eat Dinner', text: 'Jorem'}
+                )
+
+
+                //-------------------------------------
+
+                _también, poddríamos crear la interface por a parte para que se más simple y legible:
+
+
+                interface IToDo{
+                    tittle: string;
+                    text: string;
+                }
+
+                NOTA: también, podremos emular la intefacer, configurando la misma estructura, ej
+
+                        let myToDo: IToDo = {tittle: 'Eat dinner', text: 'lorem'}
+
+
+                //interface del objeto
+                function myObject(ToDo: IToDo){
+                    console.log('${ToDo.tittle} - ${ToDo.text}');
+                }
+
+                //objeto pasado como parámetro al llama a la funcion "myObject"
+                myObject(
+                    {tittle: 'Eat Dinner', text: 'Jorem'}
+                )
+
+
+
+
+        _para por último al llamar a la fnción, debemos agregar los tipos de parámetros que hemos configurado en el modelo de la función que hemos creado mientras declarábamos la función propiamente dicha
+
+        _de ésta manera, obtendremos por consola en éste caso el valor de 
+
+            "11"
+
+        
+
+
+        
+
+
+
+
+
+
+            
+
+
+
+
+-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

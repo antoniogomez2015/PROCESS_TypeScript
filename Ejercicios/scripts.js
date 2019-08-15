@@ -1,5 +1,6 @@
-var ref = undefined;
-function proof() {
-    return "tipo: " + ref;
+//interface del objeto
+function myObject(ToDo) {
+    console.log('${ToDo.tittle} - ${ToDo.text}');
 }
-document.write(proof());
+//objeto pasado como parámetro al llama a la funcion "myObject"
+myObject({ tittle: 'Eat Dinner', text: 'Jorem' });
