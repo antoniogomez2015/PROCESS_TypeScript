@@ -21,9 +21,33 @@
 
         _a los cuáles, se les llaman métodos a los comportamientos y funciones
 
-        _
-        
 
+            class user{
+                name: string;
+                email: string;
+                age: string;
+
+                //en el momento que sea instanciada la clase, eje ejecutará éste médoto pre construido
+                
+                constructor(
+                    name: string, 
+                    email: string, 
+                    age: number
+                ){
+                    this.name = name;
+                    this.email = email;
+                    this.age = age;
+                }
+
+                register(){
+                    console.log(`${this.name}`);
+                }
+            }
+
+            var Jhon = new user('Jhon', 'jhon@gmail.com', 24);
+
+            //accediendo al objeto
+            console.log(Jhon.register())
 
         
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Modificadores:
+    ______________
+
+
+        _más también, tendremos la posbilidad de cambiar el alcance de los elementos, como propiedades y métodos que conforman una clase
+
+        _para que así, éstos tengan diferentes alcances ó comportamientos según la lógica que se necesite
+
+        _de ésta manera, dispondremos de los siguientes modificadores:
+
+            _public:
+
+                _éste modicador hará que una propiedad ó método sea accesible desde cualquier parte
+
+            _protected:
+
+                _éste modificador hará que una propiedad ó método sólo sea accesible dentro de la clase respectiva
+
+            _private:
+
+                _éste modificador hará que una propiedad ó método no sea accesible desde ninguna instancia de la clase
+
+
+
+
+
+            class user{
+                name: string;
+                public email: string;
+                private age: string;
+
+                //en el momento que sea instanciada la clase, eje ejecutará éste médoto pre construido
+
+                constructor(
+                    name: string, 
+                    email: string, 
+                    age: number
+                ){
+                    this.name = name;
+                    this.email = email;
+                    this.age = age;
+                }
+
+                register(){
+                    console.log(`${this.name}`);
+                }
+
+                showMyAge(){
+                    return this.age;
+                }
+
+                public AgeInYears(){
+                    return this.age + 'Years';
+                }
+            }
+
+            var Jhon = new user('Jhon', 'jhon@gmail.com', 24);
+
+            //accediendo al objeto
+            console.log(Jhon.register())
+
+        
+
+
+
+
+
+
+            
+
+
+
+
+-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
