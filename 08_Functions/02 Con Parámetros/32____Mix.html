@@ -7,55 +7,35 @@
     <title>Document</title>
 </head>
 <body>
-<!--
 
-    Tipos de Datos:
-    _______________
+<script>
 
 
-        Mix:
-        ____
+    //Mix:
+    //____
+  
+
+        var firstName: string = "tony";
+        var age: number = 12;
 
 
-        _en typeScript, tenemos la posibilidad de especificar el tipo de dato ha almacenar en las funciones
+        function user(a: string | number, b: string | number){
+            return a + b
+        }
 
-        _de ésta manera, antes de desarrollar una función, debemos de describir un modelo de la función, con el tipo de dato ha utilizar a través, del siguiente modo:
-   
-
-                var firstName: string = "tony";
-                var age: number = 12;
+        document.write(user(firstName,age));
 
 
-                function user(a: string | number, b: string | number){
-                    return a + b
-                }
+/*
+    _de ésta manera, obtendremos en el navegador en éste caso el valor de 
 
-                document.write(user(firstName,age));
+        "tony12"
 
-
-        _de ésta manera, obtendremos en el navegador en éste caso el valor de 
-
-            "tony12"
-
-        
+*/      
 
 
+</script>
 
-
-
-        
-
-
-
-
-
-
-            
-
-
-
-
--->
 </body>
 </html>
 
